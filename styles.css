@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Roboto"
 }
 body {
     height: 100vh;
@@ -42,6 +43,16 @@ main {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    font-size: larger;
+    justify-content: space-evenly;
+    margin: 8px;
+}
+.icon-menu {
+
+}
+.icon-yt {
+    color: #c90000;
+    font-size: 32px;
 }
 .settings-button {
     color: white;
@@ -59,7 +70,7 @@ main {
     border-radius: 20px;
     display: inline-flex;
     gap: .5rem;
-    align-items: center;
+    align-items: right;
     text-transform: capitalize;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -69,10 +80,16 @@ main {
     color: #3ea6ff;
     border-color: transparent;
     cursor: pointer;
-
-
-
-
-
 }
-
+.search-field-box input[type=text] {
+    border: 1px solid #3f3f3f;
+    width: 400px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 8px;
+    justify-content: space-around;
+    margin: 8px;
+}
+ul {
+    list-style-type: none;
+}
